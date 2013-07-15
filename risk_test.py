@@ -2,12 +2,12 @@ import risk
 
 
 def print_state(testboard):
-    print testboard.continents    
+    print testboard.countries    
 
 def test_counts(testboard):
     n = 0
-    for continent in testboard.continents:
-        n += len(testboard.continents[continent])
+    for country in testboard.countries:
+        n += len(testboard.countries[country])
     assert n == 42
 
 
